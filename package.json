@@ -1,0 +1,22 @@
+{
+  "name": "assignment4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chai": "^4.3.8",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "knex": "^2.5.1",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3"
+  }
+}
