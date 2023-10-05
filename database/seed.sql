@@ -10,7 +10,7 @@ VALUES
     ('Michael Wilson', 'michaelwilson@gmail.com', 'michaelwilson'),
     ('Emily Davis', 'emilydavis@gmail.com', 'emilydavis'),
     ('David Lee', 'davidlee@gmail.com', 'davidlee');
-
+/*
 INSERT INTO jobs (name, description, salary)
 VALUES
     ('cashier', 'Handles cash transactions', 25000.00),

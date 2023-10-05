@@ -4,7 +4,7 @@ CREATE TABLE users (
     email VARCHAR(50),
     username VARCHAR(50)
 );
-
+/*
 CREATE TABLE jobs (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50),
