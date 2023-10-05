@@ -7,3 +7,11 @@ body {
     margin: 20px auto;
     border: none;
 }
+
+.box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    width: 700px;
+
+}

@@ -6,14 +6,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>People information</h1>
-<p>Chose an ID and you'll discover all the information about a person !</p>
-<label for="userId">ID :</label>
-<input type="text" id="userId" placeholder="1-20">
-<button id="fetchButton">Fetch Data !</button>
-<button id="fetchButton2">Fetch Random Data !</button>
-<div id="responseContainer"></div>
-<img id="image" src="/image/detective-spy-logo-free-vector.jpg" alt="express img">
-<script src="script.js"></script>
+    <h1>People information</h1>
+    <p>Chose an ID and you'll discover all the information about a person !
+    <div class="box">
+        <label for="userId">ID :</label>
+        <input type="text" id="userId" placeholder="...">
+        <button id="fetchButton">Fetch Data !</button>
+        <button id="fetchButton2">Fetch Random Data !</button>
+        <div id="responseContainer"></div>
+    </div>
+    <div class="box">
+        <label for="userId2">ID :</label>
+        <input type="text" id="userId2" placeholder="...">
+        <button id="fetchButton3">Delete Data !</button>
+        <div id="responseContainer2"></div>
+    </div>
+    <div class="box">
+        <label for="userId2">ID :</label>
+        <input type="text" id="userId3" placeholder="...">
+        <input type="text" id="name2" placeholder="Name">
+        <input type="text" id="username2" placeholder="Username">
+        <input type="email" id="email2" placeholder="Email">
+        <button id="fetchButton4">Update Data !</button>
+        <div id="responseContainer3"></div>
+    </div>
+    <div class="box">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="username" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <button id="fetchButton5">Create User !</button>
+        <div id="responseContainer4"></div>
+    </div>
+    <img id="image" src="/image/detective-spy-logo-free-vector.jpg" alt="express img">
+    <script src="script.js"></script>
 </body>
 </html>

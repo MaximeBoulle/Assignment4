@@ -5,8 +5,8 @@ const UserController =  require('../controllers/UserController');
 
 router.get('/', UserController.getAllUsers);
 router.get('/random', UserController.getRandomUser);
+router.get('/count', UserController.getUserCount);
 router.post('/', UserController.createUser);
-
 
 router.put('/:id', UserController.updateUser);
 router.delete('/:id', UserController.deleteUser);
